@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CodingPedia</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to CodingPedia!</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Index</a>
+                </li>
+
+                <li>
+                    <a href="php.html">PHP</a>
+                </li>
+
+                <li>
+                    <a href="sql.html">SQL</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <p>
+        CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which functions as a wiki.
+        <br>
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve.
+    </p>
+    <form>
+        <label for="first-name">First name</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last name</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="3" max="99" required>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" minlength="10" maxlength="10" required>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex" value="male" checked>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex" value="female">
+
+        <label for="hair-color">Hair color</label>
+        <input type="color" id="hair-color" name="hair-color">
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="technology">Technology</label>
+            <select id="technology" name="technology">
+                <option value="php">PHP</option>
+                <option value="sql">SQL</option>   
+            </select>
+        <label for="question">Question</label>
+        <textarea id="question" name="question" required placeholder="Écrivez votre question ici..."></textarea>
+        <button type="submit">Submit</button> 
+    </form>
+</main>
+
+<aside>
+    <p>
+        My name is Mehdi Lrhoula. I am a student learning programming and web development.
+    </p>
+</aside>
+
+<footer>
+<address>
+    Mehdi Lrhoula<br>
+    3 rue Fauchier<br>
+    13002 Marseille<br>
+    06 63 85 12 83
+</address>
+</footer>
+
+</body>
+</html>
